@@ -9,8 +9,9 @@ class Shape
         virtual void introduce() = 0;
         virtual double calculateArea() = 0;
         virtual double calculateCircumference() = 0;
-    long double calculateShapeArea(Shape*);
-long double calculateShapeCircumferece(Shape*);
+     virtual long double calculateArea() = 0;
+        virtual long double calculateCircumference() = 0;
+
 };
 
 #endif // SHAPE_H_INCLUDED
