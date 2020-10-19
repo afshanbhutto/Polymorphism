@@ -11,7 +11,10 @@ class Shape
         virtual double calculateCircumference() = 0;
      virtual long double calculateArea() = 0;
         virtual long double calculateCircumference() = 0;
-
+        virtual double calculateArea() = 0;
+        virtual double calculateCircumference() = 0;
+     virtual long double calculateArea() = 0;
+        virtual long double calculateCircumference() = 0;
 };
 
 #endif // SHAPE_H_INCLUDED
