@@ -26,3 +26,12 @@ double Circle::calculateCircumference()
 {
     return 2*PI*radius;
 }
+long double Circle::calculateArea()
+{
+    return PI*radius*radius;
+}
+
+long double Circle::calculateCircumference()
+{
+    return 2*PI*radius;
+}

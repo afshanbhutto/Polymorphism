@@ -7,6 +7,9 @@ using namespace std;
 void introduceShape(Shape*);
 double calculateShapeArea(Shape*);
 double calculateShapeCircumferece(Shape*);
+    
+    long double calculateShapeArea(Shape*);
+long double calculateShapeCircumferece(Shape*);
 
 int main()
 {

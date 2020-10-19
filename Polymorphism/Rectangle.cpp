@@ -24,3 +24,14 @@ double Rectangle::calculateCircumference()
 {
     return 2*(width+height);
 }
+
+
+// for long double
+long double Rectangle::calculateArea()
+{
+    return width*height;
+}
+long double Rectangle::calculateCircumference()
+{
+    return 2*(width+height);
+}
